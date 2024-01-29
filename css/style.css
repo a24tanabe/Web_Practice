@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: serif;
+}
+
+.headerArea {
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.titleLogo {
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    font-size: 14px;
+}
+
+.bx-wrapper {
+    margin: 0 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.mainVisual {
+    position: relative;
+}
+
+.catchcopy {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.catchcopy h1 {
+    font-size: 52px;
+}
+
+.sectionTitle {
+    padding-top: 128px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.sectionSubTitle {
+    margin-top: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.topicGroupBox {
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 64px;
+    justify-content: space-between;
+
+}
+
+.topicGroupChildren {
+    width: 20%;
+}
+
+.topicGroupChildren img {
+    width: 100%;
+}
+
+.topicCaptionTitle {
+    font-size: 16px;
+}
+
+.topicCaption {
+    font-size: 14px;
+}
+
+.companyGroup {
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyPicture {
+    width: 448px;
+    height: 300px;
+}
+
+.companyCaptionContainer {
+    display: inline;
+    margin-left: 128px;
+}
+
+.companyCaptionTitle {
+    display: inline;
+    font-size: 32px;
+}
+
+.companyCaptionText {
+    display: block;
+    margin-top: 48px;
+    font-size: 16px;
+}
+
+.toppingGroup {
+    padding-top: 64px;
+}
+
+.slide_outer {
+    position: relative;
+}
+
+.slider_caption1 {
+    position: absolute;
+    color: white;
+    font-size: 48px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.slider_caption2 {
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    top: 40%;
+    left: 15%;
+    /* transform: translate(-50%,-50%); */
+}
+
+.slider_caption3 {
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.slider_caption4 {
+    position: absolute;
+    color: white;
+    font-size: 128px;
+    top: 0%;
+    left: 25%;
+}
+
+.slider_caption5 {
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.contactContainer {
+    margin-top: 128px;
+    padding-bottom: 64px;
+    background-image: url(../img/contact.jpg);
+}
+
+.contactSubContainer {
+    display: block;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+input,
+textarea {
+    display: block;
+    font-size: 24px;
+    margin-top: 64px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.buttonArea {
+    display: inline;
+}
+
+button {
+    display: block;
+    margin: 64px auto 0 auto;
+    width: 260px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.footerArea {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    margin-left: 36px;
+    font-size: 14px;
+}
+
+.footerCopyright {
+    font-size: 18px;
+}
